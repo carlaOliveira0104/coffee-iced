@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: rgb(211, 147, 201);
+}
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(229, 49, 252);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.logo {
+  flex: 20%;
+  text-align: center;
+}
+.logo h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.menu {
+  flex: 70%;
+  text-align: right;
+  padding: 20px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 16px;
+}
+.menu a:hover {
+  color: rgb(238, 155, 245);
+  border-top: 4px solid rgb(107, 30, 89);
+}
+#botao {
+  color: white;
+  border-radius: 5px;
+}
+#botao:hover {
+  border: none;
+  background: rgb(235, 174, 255);
+  color: white;
+}
+section {
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
+  text-align: center;
+  width: 90%;
+}
+section h2 {
+  width: 100%;
+  font-size: 50px;
+  margin: 0;
+}
+section h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.card {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid rgb(250, 176, 243);
+}
+.preco {
+  font-size: 20px;
+  color: rgb(196, 118, 255);
+}
+.botaosobre {
+  background: rgb(240, 157, 227);
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.botaosobre:hover {
+  background: rgb(240, 157, 277);
+}
